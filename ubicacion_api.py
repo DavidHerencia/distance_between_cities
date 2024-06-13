@@ -4,7 +4,7 @@ import urllib, json
 import urllib.request
 
 
-class ubicacion_api(ubicacion_interface):  # las_vegas / estados_unidos
+class ubicacion_api(ubicacion_interface):
     def __init__(self):
         super().__init__()
 

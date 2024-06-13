@@ -6,10 +6,10 @@ class ubicacion_mock(ubicacion_interface):  # Las Vegas / United States
         super().__init__()
 
     def get_location(self, city, country):
-        if city == "Las Vegas":
+        if city == "las vegas":
             self.latitud = 36.1672559
             self.longitud = -115.148516
-        else:
+        elif city == "lima":
             self.latitud = -12.0621065
             self.longitud = -77.0365256
 
